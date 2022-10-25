@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #263c97;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+
+    .middle{
+      display: flex;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      span{
+          margin-right: 1rem;
+          position: relative;
+          font-size: 1rem;
+          bottom: -5px;
+      }
+    }
+    .right{
+      color: #fff;
+    }
+}
+
+.navDataList{
+  width: 100%;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 10;
+
+  .header{
+    display: flex;
+    justify-content: space-around;
+
+    .section{
+      p{
+        color: rgb(52, 52, 52);
+        cursor: pointer;
+      }
+    }
+    .imageSection{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .image{
+        border-radius: 5px;
+        width: 300px;
+      }
+    }
+  }
+  .footer{
+    border-bottom: 2px solid #263c97;
+  }
+}

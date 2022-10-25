@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.header{
+    background-color: #263c97;
+    // list-style: 1.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.4rem;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.789);
+    
+    .title{
+        color: aliceblue;
+        font-family: 'Great Vibes', cursive;
+        font-size: 2rem;
+        font-weight: 200;
+        letter-spacing: 0.3rem;
+        cursor: pointer;
+    }
+    .search{
+        display: flex;
+        height: 2.3rem;
+        input{
+            border: none;
+            border-radius: 3px 0 0 3px;
+            height: 2.3rem;
+            background: rgb(255, 255, 255);
+            outline: none;
+            font-size: 1rem;
+            padding-left: 0.7rem;
+            width: 17rem;
+        }
+        .searchButton{
+            background: rgb(237, 216, 28);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 0 3px 3px 0;
+            font-size: 1.4rem;
+            cursor: pointer;
+
+        }
+    }
+    .infoIcon{
+       display: flex;
+        .Icons{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          padding-left: 10px;
+          .Icon{
+              font-size: 1.8rem;
+              color: #fff;
+          }
+          
+          .details{
+            span{
+                color: rgb(187, 187, 187);
+                line-height: 0px;
+                font-size: .9rem;
+            }
+            p{
+                color: rgb(255, 255, 255);
+                line-height: 0px;
+                font-size: 0.9rem;
+                margin-block-start:7px;
+            }
+          }
+        }
+        .Icons:hover .Icon{
+            color: rgb(237, 216, 28);
+        }
+    }
+}

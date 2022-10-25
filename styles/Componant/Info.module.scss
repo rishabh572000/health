@@ -1,0 +1,61 @@
+.info{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+
+    .infoSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 10px 20px;
+                font-size: 3rem;
+                color: rgb(255, 195, 31);
+            }
+            .right{
+
+            }
+        }
+    }
+}
+
+.infotwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    overflow: hidden;
+  .image{
+      position: absolute;
+      right: -20%;
+      
+  }
+  .Tleft{
+    width: 35rem;
+    height: 12rem;
+    border-radius: 7px;
+    background: rgb(20, 0, 87);
+    position: relative;
+
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        color: aliceblue;
+
+
+    }
+  }
+}
